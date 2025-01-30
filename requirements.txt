@@ -1,0 +1,32 @@
+# Virtual Environment & Package Management
+virtualenv
+
+# Web Scraping
+telethon
+beautifulsoup4
+scrapy
+selenium
+
+# Data Processing & Cleaning
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+notebook  # To use Jupyter Notebook
+
+# ETL & Data Transformation
+dbt-core
+dbt-postgres
+
+# Object Detection
+opencv-python
+torch
+torchvision
+ultralytics  # For YOLOv5
+
+# API Development
+fastapi
+uvicorn
+
+# Logging & Monitoring
+loguru
