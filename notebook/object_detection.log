@@ -1,0 +1,9 @@
+2025-02-03 15:18:03,097 - INFO - YOLO model loaded successfully.
+2025-02-03 15:18:59,774 - INFO - Detection results saved to ../data/detection_results.csv
+2025-02-03 15:18:59,857 - ERROR - Error storing results in database: column name "xmin" conflicts with a system column name
+
+2025-02-03 15:24:25,208 - ERROR - Error storing results in database: column name "xmin" conflicts with a system column name
+
+2025-02-03 15:24:33,816 - ERROR - Error storing results in database: column name "xmin" conflicts with a system column name
+
+2025-02-03 15:24:56,236 - INFO - Detection results stored in database.

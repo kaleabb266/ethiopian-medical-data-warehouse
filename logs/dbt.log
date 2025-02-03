@@ -1,0 +1,389 @@
+[0m13:53:46.919754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED98C5BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99A34760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99A34970>]}
+
+
+============================== 13:53:46.933759 | af352d2f-5849-4229-afc9-a79a67a855ae ==============================
+[0m13:53:46.933759 [info ] [MainThread]: Running with dbt=1.9.2
+[0m13:53:46.935755 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init ethiopian_medical_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:47.171065 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/Kalea/.dbt')}
+[0m13:53:47.172048 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:53:47.182061 [debug] [MainThread]: Starter project path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\lib\site-packages\dbt\include\starter_project
+[0m13:53:47.259976 [info ] [MainThread]: 
+Your new dbt project "ethiopian_medical_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:53:47.261558 [info ] [MainThread]: Setting up your profile.
+[0m14:17:49.840388 [info ] [MainThread]: Profile ethiopian_medical_dbt written to C:\Users\Kalea\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:17:49.842388 [debug] [MainThread]: Command `dbt init` succeeded at 14:17:49.842388 after 1443.01 seconds
+[0m14:17:49.843388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED98C5BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99A38F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED99B571C0>]}
+[0m14:17:49.844388 [debug] [MainThread]: Flushing usage events
+[0m14:17:50.742613 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:14.931041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796475BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027966547940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000279665476D0>]}
+
+
+============================== 14:18:14.936046 | 6b8109d5-a4ed-4f85-9261-150884212f2b ==============================
+[0m14:18:14.936046 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:18:14.937050 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:18:14.975922 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:18:14.977943 [info ] [MainThread]: python version: 3.10.11
+[0m14:18:14.978916 [info ] [MainThread]: python path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\Scripts\python.exe
+[0m14:18:14.979917 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m14:18:15.055447 [info ] [MainThread]: Using profiles dir at C:\Users\Kalea\.dbt
+[0m14:18:15.057486 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kalea\.dbt\profiles.yml
+[0m14:18:15.057486 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+[0m14:18:15.065712 [info ] [MainThread]: adapter type: postgres
+[0m14:18:15.066708 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:18:15.067689 [info ] [MainThread]: Configuration:
+[0m14:18:15.069699 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:18:15.070690 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:18:15.071697 [info ] [MainThread]: Required dependencies:
+[0m14:18:15.072693 [debug] [MainThread]: Executing "git --help"
+[0m14:18:15.117281 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:18:15.118302 [debug] [MainThread]: STDERR: "b''"
+[0m14:18:15.119298 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:18:15.120295 [info ] [MainThread]: Connection:
+[0m14:18:15.120295 [info ] [MainThread]:   host: localhost
+[0m14:18:15.121275 [info ] [MainThread]:   port: 5432
+[0m14:18:15.123284 [info ] [MainThread]:   user: telegram_data
+[0m14:18:15.124281 [info ] [MainThread]:   database: public
+[0m14:18:15.125792 [info ] [MainThread]:   schema: public
+[0m14:18:15.126807 [info ] [MainThread]:   connect_timeout: 10
+[0m14:18:15.127589 [info ] [MainThread]:   role: None
+[0m14:18:15.128601 [info ] [MainThread]:   search_path: None
+[0m14:18:15.129608 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:18:15.129608 [info ] [MainThread]:   sslmode: None
+[0m14:18:15.130606 [info ] [MainThread]:   sslcert: None
+[0m14:18:15.131603 [info ] [MainThread]:   sslkey: None
+[0m14:18:15.132602 [info ] [MainThread]:   sslrootcert: None
+[0m14:18:15.133598 [info ] [MainThread]:   application_name: dbt
+[0m14:18:15.134596 [info ] [MainThread]:   retries: 1
+[0m14:18:15.135597 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:18:15.607331 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:18:18.533936 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:18:18.534930 [debug] [MainThread]: On debug: select 1 as id
+[0m14:18:18.535931 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:18:18.580381 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_data"
+
+[0m14:18:18.618420 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m14:18:18.619420 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m14:18:18.621419 [debug] [MainThread]: On debug: No close available on handle
+[0m14:18:18.621419 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:18:18.622420 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:18:18.623420 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml> not found
+
+[0m14:18:18.624419 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_data"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:18:18.626418 [debug] [MainThread]: Command `dbt debug` failed at 14:18:18.626418 after 3.81 seconds
+[0m14:18:18.627421 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:18:18.627421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002796475BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000279666BFAF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000279666BF8E0>]}
+[0m14:18:18.628418 [debug] [MainThread]: Flushing usage events
+[0m14:18:19.342101 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:19:49.764494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013748DABB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013749B88760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013749B88940>]}
+
+
+============================== 14:19:49.768494 | 25ca289f-1099-4441-a188-9712c1c7566e ==============================
+[0m14:19:49.768494 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:19:49.769464 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init ethiopian-medical-dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:20:18.603577 [debug] [MainThread]: Starter project path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\lib\site-packages\dbt\include\starter_project
+[0m14:20:18.635738 [info ] [MainThread]: 
+Your new dbt project "ethio_medical_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:20:18.636728 [info ] [MainThread]: Setting up your profile.
+[0m14:22:15.837232 [info ] [MainThread]: Profile ethio_medical_dbt written to C:\Users\Kalea\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:22:15.840222 [debug] [MainThread]: Command `dbt init` succeeded at 14:22:15.839218 after 146.17 seconds
+[0m14:22:15.841212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013748DABB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013749B88A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013749B8CD00>]}
+[0m14:22:15.842219 [debug] [MainThread]: Flushing usage events
+[0m14:22:16.682918 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:22:22.922007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F2336BBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25247970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F25247790>]}
+
+
+============================== 14:22:22.926009 | 4efe5968-3701-4869-a63b-28e3571e1142 ==============================
+[0m14:22:22.926009 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:22:22.927130 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:22:22.946150 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:22:22.947153 [info ] [MainThread]: python version: 3.10.11
+[0m14:22:22.948175 [info ] [MainThread]: python path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\Scripts\python.exe
+[0m14:22:22.949146 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m14:22:23.020722 [info ] [MainThread]: Using profiles dir at C:\Users\Kalea\.dbt
+[0m14:22:23.022726 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kalea\.dbt\profiles.yml
+[0m14:22:23.022726 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+[0m14:22:23.023721 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:22:23.025726 [debug] [MainThread]: Command `dbt debug` failed at 14:22:23.025726 after 0.20 seconds
+[0m14:22:23.026737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F2336BBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F2523E890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F251F80A0>]}
+[0m14:22:23.026737 [debug] [MainThread]: Flushing usage events
+[0m14:22:23.729975 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:23:49.817845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CF05BB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CFE38760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CFE38940>]}
+
+
+============================== 14:23:49.821833 | e63170e6-8d49-4afb-a85e-5f11797166e6 ==============================
+[0m14:23:49.821833 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:23:49.823832 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:23:49.825602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:23:49.827636 [debug] [MainThread]: Command `dbt clean` failed at 14:23:49.826625 after 0.10 seconds
+[0m14:23:49.827636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CF05BB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CFE381C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257CFE38100>]}
+[0m14:23:49.828625 [debug] [MainThread]: Flushing usage events
+[0m14:23:50.716414 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:24:20.435536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F28C6BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F29A48790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F29A48970>]}
+
+
+============================== 14:24:20.439536 | d1a063a3-e31b-47af-9146-92e705144048 ==============================
+[0m14:24:20.439536 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:24:20.440547 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:24:20.459550 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:24:20.461065 [info ] [MainThread]: python version: 3.10.11
+[0m14:24:20.462076 [info ] [MainThread]: python path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\Scripts\python.exe
+[0m14:24:20.463076 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m14:24:20.535083 [info ] [MainThread]: Using profiles dir at C:\Users\Kalea\.dbt
+[0m14:24:20.536073 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kalea\.dbt\profiles.yml
+[0m14:24:20.536073 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+[0m14:24:20.537085 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m14:24:20.539089 [debug] [MainThread]: Command `dbt debug` failed at 14:24:20.538075 after 0.19 seconds
+[0m14:24:20.539089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F28C6BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F29BA9270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F29A4E7A0>]}
+[0m14:24:20.540095 [debug] [MainThread]: Flushing usage events
+[0m14:24:21.231214 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:25:20.352808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7845BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7A238730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7A238910>]}
+
+
+============================== 14:25:20.357318 | e5170ada-e730-4777-bc4f-bd715580144a ==============================
+[0m14:25:20.357318 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:25:20.358011 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init ethiopian_medical_dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:25:20.377021 [info ] [MainThread]: A project called ethiopian_medical_dbt already exists here.
+[0m14:25:20.379022 [debug] [MainThread]: Command `dbt init` succeeded at 14:25:20.379022 after 0.11 seconds
+[0m14:25:20.379022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7845BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7A238550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AD7A238A00>]}
+[0m14:25:20.380023 [debug] [MainThread]: Flushing usage events
+[0m14:25:21.820168 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:30.642341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E8F45BB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E91238790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E91238970>]}
+
+
+============================== 14:27:30.647352 | aac39d38-ce9a-49e7-8594-60f401f07f43 ==============================
+[0m14:27:30.647352 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:27:30.648338 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:30.889186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aac39d38-ce9a-49e7-8594-60f401f07f43', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E8FCD64A0>]}
+[0m14:27:30.926189 [debug] [MainThread]: Command `dbt clean` succeeded at 14:27:30.926189 after 0.37 seconds
+[0m14:27:30.927192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E8F45BB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E912E3B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023E8FD32410>]}
+[0m14:27:30.927192 [debug] [MainThread]: Flushing usage events
+[0m14:27:31.784420 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:37.335378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365955BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365B3387C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365B3389A0>]}
+
+
+============================== 14:27:37.339442 | 6783b336-f2fb-4ddc-bddc-d93732c6af3e ==============================
+[0m14:27:37.339442 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:27:37.340470 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:37.358461 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:27:37.358461 [info ] [MainThread]: python version: 3.10.11
+[0m14:27:37.359608 [info ] [MainThread]: python path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\Scripts\python.exe
+[0m14:27:37.360475 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m14:27:37.438022 [info ] [MainThread]: Using profiles dir at C:\Users\Kalea\.dbt
+[0m14:27:37.439006 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kalea\.dbt\profiles.yml
+[0m14:27:37.440007 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+[0m14:27:37.442011 [info ] [MainThread]: adapter type: postgres
+[0m14:27:37.442011 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:27:37.549524 [info ] [MainThread]: Configuration:
+[0m14:27:37.551524 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:27:37.551524 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:27:37.552525 [info ] [MainThread]: Required dependencies:
+[0m14:27:37.553525 [debug] [MainThread]: Executing "git --help"
+[0m14:27:37.593935 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:27:37.594933 [debug] [MainThread]: STDERR: "b''"
+[0m14:27:37.595933 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:27:37.595933 [info ] [MainThread]: Connection:
+[0m14:27:37.596934 [info ] [MainThread]:   host: localhost
+[0m14:27:37.597933 [info ] [MainThread]:   port: 5432
+[0m14:27:37.598924 [info ] [MainThread]:   user: telegram_data
+[0m14:27:37.598924 [info ] [MainThread]:   database: public
+[0m14:27:37.599934 [info ] [MainThread]:   schema: public
+[0m14:27:37.600935 [info ] [MainThread]:   connect_timeout: 10
+[0m14:27:37.602935 [info ] [MainThread]:   role: None
+[0m14:27:37.603934 [info ] [MainThread]:   search_path: None
+[0m14:27:37.603934 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:27:37.604934 [info ] [MainThread]:   sslmode: None
+[0m14:27:37.605924 [info ] [MainThread]:   sslcert: None
+[0m14:27:37.606934 [info ] [MainThread]:   sslkey: None
+[0m14:27:37.608929 [info ] [MainThread]:   sslrootcert: None
+[0m14:27:37.608929 [info ] [MainThread]:   application_name: dbt
+[0m14:27:37.609930 [info ] [MainThread]:   retries: 1
+[0m14:27:37.611928 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:27:37.938781 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:27:38.027302 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:27:38.027302 [debug] [MainThread]: On debug: select 1 as id
+[0m14:27:38.028303 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:27:38.072087 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_data"
+
+[0m14:27:38.112110 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m14:27:38.113135 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m14:27:38.114128 [debug] [MainThread]: On debug: No close available on handle
+[0m14:27:38.115117 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:27:38.116125 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:27:38.117114 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "telegram_data"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:27:38.119115 [debug] [MainThread]: Command `dbt debug` failed at 14:27:38.119115 after 0.87 seconds
+[0m14:27:38.120114 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:27:38.120114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365955BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365B2FA7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002365B4E4880>]}
+[0m14:27:38.121126 [debug] [MainThread]: Flushing usage events
+[0m14:27:38.820610 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:28:24.468159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EAF5BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EBD38760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EBD38940>]}
+
+
+============================== 14:28:24.473168 | afe8238c-f98f-481a-b411-c485e8b518ee ==============================
+[0m14:28:24.473168 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:28:24.475172 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init ethiopian_medical_dbt', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:28:24.494168 [info ] [MainThread]: Setting up your profile.
+[0m14:29:13.971180 [info ] [MainThread]: Profile ethiopian_medical_dbt written to C:\Users\Kalea\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:29:13.974176 [debug] [MainThread]: Command `dbt init` succeeded at 14:29:13.973182 after 49.59 seconds
+[0m14:29:13.975176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EAF5BB80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EBD3C220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0EBD389A0>]}
+[0m14:29:13.976175 [debug] [MainThread]: Flushing usage events
+[0m14:29:14.836427 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:29:22.620054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12DB5BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12E938760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12E938940>]}
+
+
+============================== 14:29:22.624054 | 3944de01-94ea-48d1-9cef-730e307b3b27 ==============================
+[0m14:29:22.624054 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:29:22.625054 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt clean', 'send_anonymous_usage_stats': 'True'}
+[0m14:29:22.794108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3944de01-94ea-48d1-9cef-730e307b3b27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12AC75CC0>]}
+[0m14:29:22.817106 [debug] [MainThread]: Command `dbt clean` succeeded at 14:29:22.817106 after 0.29 seconds
+[0m14:29:22.817106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12DB5BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12E9E2020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E12E9E3610>]}
+[0m14:29:22.818105 [debug] [MainThread]: Flushing usage events
+[0m14:29:23.550428 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:29:28.309809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F0355BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F05338760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F05338940>]}
+
+
+============================== 14:29:28.313856 | cfdc5eac-89d4-424a-aeb0-e83df60fed04 ==============================
+[0m14:29:28.313856 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:29:28.314836 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:29:28.332958 [info ] [MainThread]: dbt version: 1.9.2
+[0m14:29:28.333959 [info ] [MainThread]: python version: 3.10.11
+[0m14:29:28.334956 [info ] [MainThread]: python path: C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\env\Scripts\python.exe
+[0m14:29:28.335954 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m14:29:28.410980 [info ] [MainThread]: Using profiles dir at C:\Users\Kalea\.dbt
+[0m14:29:28.411960 [info ] [MainThread]: Using profiles.yml file at C:\Users\Kalea\.dbt\profiles.yml
+[0m14:29:28.412971 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\dbt_project.yml
+[0m14:29:28.413977 [info ] [MainThread]: adapter type: postgres
+[0m14:29:28.414976 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:29:28.519300 [info ] [MainThread]: Configuration:
+[0m14:29:28.521321 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:29:28.522312 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:29:28.522312 [info ] [MainThread]: Required dependencies:
+[0m14:29:28.523295 [debug] [MainThread]: Executing "git --help"
+[0m14:29:28.564515 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:29:28.565495 [debug] [MainThread]: STDERR: "b''"
+[0m14:29:28.566496 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:29:28.566930 [info ] [MainThread]: Connection:
+[0m14:29:28.567963 [info ] [MainThread]:   host: localhost
+[0m14:29:28.568944 [info ] [MainThread]:   port: 5432
+[0m14:29:28.569940 [info ] [MainThread]:   user: postgres
+[0m14:29:28.570583 [info ] [MainThread]:   database: telegram_data
+[0m14:29:28.571621 [info ] [MainThread]:   schema: public
+[0m14:29:28.572593 [info ] [MainThread]:   connect_timeout: 10
+[0m14:29:28.573603 [info ] [MainThread]:   role: None
+[0m14:29:28.575598 [info ] [MainThread]:   search_path: None
+[0m14:29:28.576592 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:29:28.578596 [info ] [MainThread]:   sslmode: None
+[0m14:29:28.579594 [info ] [MainThread]:   sslcert: None
+[0m14:29:28.580594 [info ] [MainThread]:   sslkey: None
+[0m14:29:28.582593 [info ] [MainThread]:   sslrootcert: None
+[0m14:29:28.582593 [info ] [MainThread]:   application_name: dbt
+[0m14:29:28.583591 [info ] [MainThread]:   retries: 1
+[0m14:29:28.584591 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:29:28.904312 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:29:28.982912 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:29:28.982912 [debug] [MainThread]: On debug: select 1 as id
+[0m14:29:28.983906 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:29:29.031429 [debug] [MainThread]: SQL status: SELECT 1 in 0.048 seconds
+[0m14:29:29.032460 [debug] [MainThread]: On debug: Close
+[0m14:29:29.033460 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:29:29.034440 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:29:29.036441 [debug] [MainThread]: Command `dbt debug` succeeded at 14:29:29.036441 after 0.81 seconds
+[0m14:29:29.037460 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:29:29.037460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F0355BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F03790190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F052FB220>]}
+[0m14:29:29.038457 [debug] [MainThread]: Flushing usage events
+[0m14:29:29.747160 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:29:41.158982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002194425BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219460406D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219460408B0>]}
+
+
+============================== 14:29:41.162972 | 5cefe284-3de6-486a-bada-6e21bd44233e ==============================
+[0m14:29:41.162972 [info ] [MainThread]: Running with dbt=1.9.2
+[0m14:29:41.164073 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Kalea\\Desktop\\week 7\\ethiopian-medical-data-warehouse\\logs', 'profiles_dir': 'C:\\Users\\Kalea\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:29:41.398709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219423A1C60>]}
+[0m14:29:41.457324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021944FA1990>]}
+[0m14:29:41.459324 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:29:41.835325 [debug] [MainThread]: checksum: 12b12750b70de726cfd89136b8e24afc3f3e77597a97bff40ab7e5f9b39d5e18, vars: {}, profile: , target: , version: 1.9.2
+[0m14:29:41.836336 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:29:41.837333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002194612BE20>]}
+[0m14:29:43.675417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021944B75870>]}
+[0m14:29:43.721417 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\target\manifest.json
+[0m14:29:43.729423 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\target\semantic_manifest.json
+[0m14:29:43.794648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021946503820>]}
+[0m14:29:43.795648 [info ] [MainThread]: Found 431 macros
+[0m14:29:43.796646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5cefe284-3de6-486a-bada-6e21bd44233e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021946503AC0>]}
+[0m14:29:43.798652 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:29:43.800650 [debug] [MainThread]: Command end result
+[0m14:29:43.822663 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\target\manifest.json
+[0m14:29:43.825651 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\target\semantic_manifest.json
+[0m14:29:43.830663 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Kalea\Desktop\week 7\ethiopian-medical-data-warehouse\target\run_results.json
+[0m14:29:43.833664 [debug] [MainThread]: Command `dbt run` succeeded at 14:29:43.832670 after 2.77 seconds
+[0m14:29:43.834662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002194425BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219443BEAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002194653B610>]}
+[0m14:29:43.835661 [debug] [MainThread]: Flushing usage events
+[0m14:29:44.562992 [debug] [MainThread]: An error was encountered while trying to flush usage events
